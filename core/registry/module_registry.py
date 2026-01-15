@@ -8,3 +8,9 @@ def load_modules(path="modules"):
             with open(meta) as f:
                 modules[name] = yaml.safe_load(f)
     return modules
+# core/registry/module_registry.py
+from core.bus.event_bus import subscribe
+
+def register_module(name, events):
+    for ev in events.get("subscribe", []):
+        subscribe(ev, lambda payload: print(f"{name} received {ev}"))
