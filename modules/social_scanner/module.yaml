@@ -1,0 +1,12 @@
+name: social_scanner
+type: enhancement
+permissions:
+  read: true
+  write: false
+  suggest: true
+events:
+  publish:
+    - content.scan.result
+  subscribe:
+    - content.scan.request
+controlled_by: stephen
