@@ -1,8 +1,8 @@
 # Social
 Running
-# scanzaclip-unified-platform
+# Socai aungroritum dabbel 2 core 4 × in core 2 core 4 cord + 8 core×2 number 4 core in 1 run now 
 
-Unified Monorepo (Plugin-based) controlled by SC Stephen.
+Unified Monorepo (Plugin-based) controlled by .
 
 ## Features
 - Monorepo + Module Registry
